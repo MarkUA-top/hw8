@@ -1,3 +1,4 @@
+/*task1*/
 #greycol{
     color: gray;
 }
@@ -14,18 +15,18 @@ h3:first-child{
     color: pink;
 }
 /*task2*/
-.pn{
-    color: rebeccapurple;
+.pn:first-child:hover{
+    color: rosybrown;
 }
-.vt{
-    color: blueviolet;
+.vt:nth-child(-n+2){
+color: blueviolet;
 }
-.sr{
-    color: azure;
-}
-.cht{
-    color: blanchedalmond;
-}
-.pt{
+.sr:nth-child(3n):focus{
     color: burlywood;
+}
+.pt:last-child{
+    color: hotpink;
+}
+.cht:nth-child(even){
+    color: greenyellow;
 }
