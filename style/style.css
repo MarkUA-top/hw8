@@ -1,32 +1,35 @@
 /*task1*/
-#greycol{
-    color: gray;
+#greycol {
+  color: gray;
 }
-.yellow{
-    color: yellow;
+.yellow {
+  color: yellow;
 }
-div>div>p{
-    color: red;
+div > div > p {
+  color: red;
 }
-div+h3+p{
-    color: green;
+div + h3 + p {
+  color: green;
 }
-h3:first-child{
-    color: pink;
+h3:first-child {
+  color: pink;
 }
 /*task2*/
-.pn:first-child:hover{
-    color: rosybrown;
+.pn:first-child:hover {
+  color: rosybrown;
 }
-.vt:nth-child(-n+2){
-color: blueviolet;
+.vt:nth-child(-n + 2):focus {
+  color: blueviolet;
 }
-.sr:nth-child(3n):focus{
-    color: burlywood;
+.sr:nth-child(3n):disabled {
+  color: yellow;
 }
-.pt:last-child{
-    color: hotpink;
+.sr:nth-child(3n):active {
+  color: yellow;
 }
-.cht:nth-child(even){
-    color: greenyellow;
+.pt:last-child :not(.pt){
+  color: hotpink;
+}
+.cht:nth-child(even):link{
+  color: greenyellow;
 }
